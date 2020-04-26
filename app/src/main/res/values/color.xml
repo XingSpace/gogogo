@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="back">#b987ff</color>
+    <color name="font1">#ff837d</color>
+    <color name="font2">#f6ff7a</color>
+    <color name="font3">#c1fc81</color>
+    <color name="font4">#7df0ff</color>
+    <color name="back1">#57a0ff</color>
+    <color name="back2">#ff579a</color>
+    <color name="back3">#fffb0a</color>
+    <color name="back4">#6f7175</color>
+    <color name="back7">#6f7979</color>
+    <color name="back5">#f67834</color>
+    <color name="back6">#f69030</color>
+    <color name="back8">#d1d1d1</color>
+    <color name="back9">#d1b99f</color>
+</resources>

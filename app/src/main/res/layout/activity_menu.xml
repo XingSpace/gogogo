@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/back9"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/menu_ball"
+            android:src="@drawable/yellowball"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/menu_ball2"
+            android:src="@drawable/blueball"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingRight="30dp">
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_start_selector"
+            android:layout_width="180dp"
+            android:layout_height="80dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="right|bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/contact"
+                android:src="@drawable/contact"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
