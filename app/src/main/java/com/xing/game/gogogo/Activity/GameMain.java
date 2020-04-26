@@ -360,6 +360,7 @@ public class GameMain extends ActivityBase implements Runnable {
         soundID.put(2, soundPool.load(mContext, R.raw.explosion, 0));
         ball = (Ball) findViewById(R.id.ball);
         ball.post(new Runnable() {
+
             @Override
             public void run() {
                 //以下三行，设置了球跳跃的最高点
